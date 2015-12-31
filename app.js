@@ -1,3 +1,7 @@
+$( document ).ready(function() {
+  var supplyNumber = prompt("Please enter a number");
+});
+
 for (var fizzCount = 1; fizzCount<=100; ++fizzCount) {
    if (fizzCount % 15 == 0)
    window.document.writeln("FizzBuzz<br />");
